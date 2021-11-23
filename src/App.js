@@ -4,6 +4,7 @@ import Header from './components/layout/Header/Header';
 import Footer from './components/layout/Footer/Footer';
 import Home from './views/Home/Home';
 import Detail from './views/Detail/Detail.js';
+import Edit from './views/Edit/Edit.js';
 
 import { getBlogs } from './services/blogs';
 import { Switch, Route } from 'react-router-dom';
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path='/blogs/:id'>
             <Detail />
+          </Route>
+          <Route exact path='/blogs/:id/edit'>
+            <Edit />
           </Route>
         </div>
       </Switch>

@@ -13,7 +13,7 @@ export default function BlogCard({ id, title, subtitle, text, image }) {
         <div className="text">{text}</div>
       </div>
       <div className="image">
-        <img src={image}/>
+        <img src={image} />
       </div>
     </div>
   );

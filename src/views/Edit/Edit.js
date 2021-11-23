@@ -17,7 +17,7 @@ export default function Edit() {
 
   return (
     <div className="edit">
-      <h3> Edit Page</h3>
+      <h3>Edit Page</h3>
     </div>
   );
 }
