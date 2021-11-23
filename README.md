@@ -43,9 +43,9 @@ Your data layer is already provided for you in the services folder. You do not n
 
 ### Acceptance Criteria
 
-* a user should be able to visit the following pages (you'll need to add the `<Router>` and `<Switch>` to App.js)
+* a user should be able to visit the following pages (you'll need to add the !!!!`<Route>` and `<Switch>` to App.js)
   * a home page which renders the `<Home>` component with the list of blogs
-  * individual blog posts at `blogs/:id` which should render `<DetailPage>` component
+  * individual blog posts at `blogs/:id` which should render !!!`<Detail>` component
   * individual blog edit pages `blogs/:id/edit` which should render `<EditPage>` component
 * the `<DetailPage>` should
   * use `useState` and `useEffect` to dynamically load the individual blog from the router params

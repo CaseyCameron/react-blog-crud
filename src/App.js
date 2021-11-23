@@ -25,16 +25,16 @@ function App() {
       <Header />
       <Switch>
         <div className="main">
-          <Route path='/'>
+          <Route exact path='/'>
             <Home blogs={blogs} />
           </Route>
-          <Route path='/blogs/:id'>
-            <DetailPage />
+          <Route exact path='/blogs/:id'>
+            <Detail />
           </Route>
         </div>
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 
